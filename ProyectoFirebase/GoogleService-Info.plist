@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>481566727675-ulqsc8vvo4v76gci06s9b1kk4h4du3ln.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.481566727675-ulqsc8vvo4v76gci06s9b1kk4h4du3ln</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA7Qhfo4AxZiEZ5kO2YmE7zTXH-_oNHuxM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>481566727675</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>mx.tacode.ProyectoFirebase</string>
+	<key>PROJECT_ID</key>
+	<string>diplomado5g-6f0a5</string>
+	<key>STORAGE_BUCKET</key>
+	<string>diplomado5g-6f0a5.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:481566727675:ios:fc8953c91035ba86783f5e</string>
+	<key>DATABASE_URL</key>
+	<string>https://diplomado5g-6f0a5.firebaseio.com</string>
+</dict>
+</plist>
