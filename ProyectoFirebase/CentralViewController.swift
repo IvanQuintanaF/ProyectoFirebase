@@ -12,8 +12,8 @@ import UIKit
 class CentralViewController: UITabBarController {
 
     let profileController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "ProfileViewController") as! ProfileViewController
-    let photosController = PhotosCollectionViewController()
-    let saveController = ProfileViewController()
+    let photosController = FlickrViewController()
+    let saveController = UIViewController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,14 +27,17 @@ class CentralViewController: UITabBarController {
         profileController.tabBarItem.image = UIImage(systemName: "person.fill")
         profileController.tabBarItem.title = "Perfil"
         
-        let photsNavCon = UINavigationController(rootViewController: photosController)
-        photosController.tabBarItem.image = UIImage(systemName: "doc.richtext")
-        photosController.tabBarItem.title = "Photos"
+        let layout = UICollectionViewFlowLayout()
+        layout.scrollDirection = .vertical
+        let collectionViewController = FlickrViewController(collectionViewLayout: layout)
+        collectionViewController.tabBarItem.image = UIImage(systemName: "square.grid.2x2.fill")
+        collectionViewController.tabBarItem.title = "Photos"
+        let photosNavController = UINavigationController(rootViewController: collectionViewController)
         
         let saveNavCon = UINavigationController(rootViewController: saveController)
         saveController.tabBarItem.image = UIImage(systemName: "tray.and.arrow.down.fill")
-        saveController.tabBarItem.title = "Photos"
+        saveController.tabBarItem.title = "Favorites"
         
-        self.viewControllers = [profileController, photsNavCon, saveController]
+        self.viewControllers = [profileController, photosNavController, saveNavCon ]
     }
 }

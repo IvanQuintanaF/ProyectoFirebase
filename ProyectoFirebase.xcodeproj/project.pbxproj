@@ -19,7 +19,8 @@
 		2D7A46E1241338DF008FF1B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D7A46E0241338DF008FF1B7 /* GoogleService-Info.plist */; };
 		48C81819241C464200E3580A /* CentralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C81818241C464200E3580A /* CentralViewController.swift */; };
 		48C8181B241C471400E3580A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8181A241C471400E3580A /* ProfileViewController.swift */; };
-		48C8181D241C4A5B00E3580A /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8181C241C4A5B00E3580A /* PhotosCollectionViewController.swift */; };
+		48C8181D241C4A5B00E3580A /* FlickrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8181C241C4A5B00E3580A /* FlickrViewController.swift */; };
+		48C81820241C778000E3580A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8181F241C778000E3580A /* Models.swift */; };
 		AA4DAF95821B1EA34B972518 /* Pods_ProyectoFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7CF07CDD66384348654031 /* Pods_ProyectoFirebase.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +41,8 @@
 		2D7A46E0241338DF008FF1B7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		48C81818241C464200E3580A /* CentralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralViewController.swift; sourceTree = "<group>"; };
 		48C8181A241C471400E3580A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		48C8181C241C4A5B00E3580A /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		48C8181C241C4A5B00E3580A /* FlickrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrViewController.swift; sourceTree = "<group>"; };
+		48C8181F241C778000E3580A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		7F7CF07CDD66384348654031 /* Pods_ProyectoFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProyectoFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,6 +79,7 @@
 		2D7A46CB241332B1008FF1B7 /* ProyectoFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				48C8181E241C777500E3580A /* Model */,
 				2D7A46CC241332B1008FF1B7 /* AppDelegate.swift */,
 				2D7A46CE241332B1008FF1B7 /* SceneDelegate.swift */,
 				2D7A46D0241332B1008FF1B7 /* ViewController.swift */,
@@ -84,7 +87,7 @@
 				2D7A46D2241332B1008FF1B7 /* Main.storyboard */,
 				48C81818241C464200E3580A /* CentralViewController.swift */,
 				48C8181A241C471400E3580A /* ProfileViewController.swift */,
-				48C8181C241C4A5B00E3580A /* PhotosCollectionViewController.swift */,
+				48C8181C241C4A5B00E3580A /* FlickrViewController.swift */,
 				2D0465B22414193A007F75C9 /* WelcomeViewController.swift */,
 				2D0465B0241416A7007F75C9 /* MainViewController.swift */,
 				2D7A46D5241332B3008FF1B7 /* Assets.xcassets */,
@@ -102,6 +105,14 @@
 				11BED9571210819D526E641A /* Pods-ProyectoFirebase.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		48C8181E241C777500E3580A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48C8181F241C778000E3580A /* Models.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		AB92D3316A89E2B52135A9DD /* Frameworks */ = {
@@ -252,9 +263,10 @@
 				48C81819241C464200E3580A /* CentralViewController.swift in Sources */,
 				2D0465B32414193A007F75C9 /* WelcomeViewController.swift in Sources */,
 				2D7A46CF241332B1008FF1B7 /* SceneDelegate.swift in Sources */,
-				48C8181D241C4A5B00E3580A /* PhotosCollectionViewController.swift in Sources */,
+				48C8181D241C4A5B00E3580A /* FlickrViewController.swift in Sources */,
 				48C8181B241C471400E3580A /* ProfileViewController.swift in Sources */,
 				2D0465B1241416A7007F75C9 /* MainViewController.swift in Sources */,
+				48C81820241C778000E3580A /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
